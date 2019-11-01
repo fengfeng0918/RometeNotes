@@ -47,10 +47,10 @@ def GitUpload(file,Name,Email,Password, Repository,Message="Some uploads"):
     repo.auth(username=Name, password=Password) # Auth for pushing
     repo.push()
 
-if __name__ == '__main__':
-    file = "requirements.txt"
-    name= "fengfeng0918"
-    email = "527282351@qq.com"
-    password = "*****"
-    Repository = "gittle"
-    GitUpload(file,name, email, password, Repository)
+# if __name__ == '__main__':
+#     file = "requirements.txt"
+#     name= "fengfeng0918"
+#     email = "527282351@qq.com"
+#     password = "*****"
+#     Repository = "gittle"
+#     GitUpload(file,name, email, password, Repository)
