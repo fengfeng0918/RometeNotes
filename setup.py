@@ -41,7 +41,7 @@ setup_kwargs = {
     'install_requires': [
     # PyPI
     'paramiko>=1.10.0',
-    'pycrypto==2.6',
+    'pycrypto==2.6.1',
     'dulwich>=0.9.7',
     'funky>=0.0.2','funky>=0.0.2'
     ],
